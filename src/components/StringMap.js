@@ -44,7 +44,7 @@ class StringMap extends Component {
             showLabel
             key={node.d3 + this.props.route.length * 5}
             node={{ id: node.d3, data: node.name }}
-            fill="#D2D5DD"
+            fill="#ececec"
             stroke="black"
             strokeWidth="1px"
             r="35"
@@ -160,10 +160,10 @@ class StringMap extends Component {
               strength: {
                 charge: -5000
               },
-              velocityDecay: .9,
+              velocityDecay: 0.9,
               alpha: 1,
-              alphaDecay: .5,
-              alphaMin: .3
+              alphaDecay: 0.5,
+              alphaMin: 0.3
             }}
             highlightDependencies
           >
